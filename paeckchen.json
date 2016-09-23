@@ -1,0 +1,12 @@
+{
+  "input": {
+    "source": "es5"
+  },
+  "output": {
+    "folder": "public/js",
+    "file": "app.js",
+    "runtime": "browser",
+    "sourceMap": true
+  },
+  "debug": false
+}

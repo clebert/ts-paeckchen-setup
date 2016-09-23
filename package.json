@@ -1,0 +1,26 @@
+{
+  "name": "ts-paeckchen-setup",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run lint && npm run prepare && tsc && npm run bundle",
+    "bundle": "paeckchen --entry dist/index.js",
+    "lint": "tslint 'src/**/*.ts' 'types/**/*.d.ts'",
+    "prepare": "node scripts/prepare.js",
+    "start": "http-server -o -p 1985",
+    "upgrade": "ncu --upgradeAll && npm prune && npm install",
+    "watch": "npm run prepare && tsc && concurrently --raw 'tsc --watch' 'npm run bundle -- --watch'"
+  },
+  "dependencies": {
+    "loglevel": "1.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "2.2.0",
+    "http-server": "0.9.0",
+    "npm-check-updates": "2.8.0",
+    "paeckchen-cli": "0.4.0",
+    "shelljs": "0.7.4",
+    "tslint": "3.15.1",
+    "typescript": "2.0.3"
+  }
+}

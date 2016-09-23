@@ -1,0 +1,12 @@
+{
+  "search.exclude": {
+    "dist": true,
+    "node_modules": true,
+    "paeckchen.cache.json": true,
+    "public": true
+  },
+  "tslint.configFile": "tslint.json",
+  "tslint.enable": true,
+  "tslint.ignoreDefinitionFiles": false,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
