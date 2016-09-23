@@ -1,6 +1,6 @@
 # ts-paeckchen-setup
 
-Example setup with TypeScript and paeckchen.
+Example setup with [TypeScript](https://github.com/Microsoft/TypeScript) and [paeckchen](https://github.com/paeckchen/paeckchen).
 
 ## Installation
 
