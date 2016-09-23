@@ -5,6 +5,14 @@ Example setup with [TypeScript](https://github.com/Microsoft/TypeScript) and [pa
 ## Installation
 
 ```sh
+mkdir -p path/to/my-new-project && cd path/to/my-new-project
+```
+
+```sh
+curl -L https://github.com/clebert/ts-paeckchen-setup/archive/master.tar.gz | tar -xf- --strip 1
+```
+
+```sh
 npm install
 ```
 
