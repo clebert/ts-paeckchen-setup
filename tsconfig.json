@@ -57,7 +57,7 @@
     "strictNullChecks": true,
     "stripInternal": true,
     "suppressExcessPropertyErrors": false,
-    "suppressImplicitAnyIndexErrors": true,
+    "suppressImplicitAnyIndexErrors": false,
     "target": "es5",
     "traceResolution": false
     // "types": [],
