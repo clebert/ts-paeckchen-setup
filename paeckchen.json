@@ -1,5 +1,6 @@
 {
   "input": {
+    "entry": "dist/index.js",
     "source": "es5"
   },
   "output": {

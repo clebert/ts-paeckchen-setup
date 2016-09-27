@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run lint && npm run prepare && tsc && npm run bundle",
-    "bundle": "paeckchen --entry dist/index.js",
+    "build": "npm run lint && npm run prepare && tsc && paeckchen",
     "lint": "tslint 'src/**/*.ts' 'types/**/*.d.ts'",
     "prepare": "node scripts/prepare.js",
     "start": "http-server -o -p 1985",
     "upgrade": "ncu --upgradeAll && npm prune && npm install",
-    "watch": "npm run prepare && tsc && concurrently --raw 'tsc --watch' 'npm run bundle -- --watch'"
+    "watch": "npm run prepare && tsc && concurrently --raw 'tsc --watch' 'paeckchen --watch'"
   },
   "dependencies": {
     "loglevel": "1.4.1"
