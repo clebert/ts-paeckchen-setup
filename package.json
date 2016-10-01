@@ -1,7 +1,9 @@
 {
+  "private": true,
   "name": "ts-paeckchen-setup",
   "version": "0.0.0",
-  "private": true,
+  "description": "Example setup with TypeScript and paeckchen",
+  "license": "MIT",
   "scripts": {
     "build": "npm run lint && npm run prepare && tsc && paeckchen",
     "lint": "tslint 'src/**/*.ts' 'types/**/*.d.ts'",
