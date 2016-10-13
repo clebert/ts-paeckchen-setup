@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "christian-kohler.path-intellisense",
+    "donjayamanne.githistory",
+    "eg2.tslint",
+    "ms-vscode.typescript-javascript-grammar",
+    "waderyan.gitblame"
+  ]
+}
