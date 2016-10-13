@@ -13,7 +13,7 @@ curl -L https://github.com/clebert/ts-paeckchen-setup/archive/master.tar.gz | ta
 ```
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Usage
@@ -21,15 +21,15 @@ npm install
 ### Production
 
 ```sh
-npm run build
+yarn run build
 ```
 
 ### Development
 
 ```sh
-npm run watch
+yarn run watch
 ```
 
 ```sh
-npm start
+yarn start
 ```

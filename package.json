@@ -11,12 +11,12 @@
   },
   "author": "Clemens Akens <clebert@me.com>",
   "scripts": {
-    "build": "npm run lint && npm run prepare && tsc && paeckchen",
+    "build": "yarn run lint && yarn run prepare && tsc && paeckchen",
     "lint": "tslint 'src/**/*.ts' 'types/**/*.d.ts'",
     "prepare": "node scripts/prepare.js",
     "start": "http-server -o -p 1985",
-    "upgrade": "ncu --upgradeAll && npm prune && npm install",
-    "watch": "npm run prepare && tsc && concurrently --raw 'tsc --watch' 'paeckchen --watch'"
+    "upgrade": "ncu --upgradeAll && yarn install",
+    "watch": "yarn run prepare && tsc && concurrently --raw 'tsc --watch' 'paeckchen --watch'"
   },
   "dependencies": {
     "loglevel": "1.4.1"
@@ -27,6 +27,7 @@
     "npm-check-updates": "2.8.5",
     "paeckchen-cli": "0.4.0",
     "shelljs": "0.7.4",
+    "source-map": "0.5.6",
     "tslint": "3.15.1",
     "tslint-config-clebert": "1.0.1",
     "typescript": "2.0.3"
