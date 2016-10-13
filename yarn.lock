@@ -2382,6 +2382,10 @@ source-map@~0.2.0:
   dependencies:
     amdefine ">=0.0.4"
 
+source-map@0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
+
 sourcemap-codec@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.3.0.tgz#754b78bdc42edc48295eeb6e5ca525c9ab09413a"
