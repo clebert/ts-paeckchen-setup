@@ -4,6 +4,12 @@
   "version": "0.0.0",
   "description": "Example setup with TypeScript and paeckchen",
   "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/clebert/ts-paeckchen-setup.git",
+    "type": "git"
+  },
+  "author": "Clemens Akens <clebert@me.com>",
   "scripts": {
     "build": "npm run lint && npm run prepare && tsc && paeckchen",
     "lint": "tslint 'src/**/*.ts' 'types/**/*.d.ts'",
