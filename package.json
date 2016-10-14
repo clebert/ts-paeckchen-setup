@@ -15,7 +15,7 @@
     "lint": "tslint 'src/**/*.ts' 'types/**/*.d.ts'",
     "prepare": "node scripts/prepare.js",
     "start": "http-server -o -p 1985",
-    "upgrade": "ncu --upgradeAll && yarn install",
+    "upgrade": "ncu --upgradeAll && yarn upgrade",
     "watch": "yarn run prepare && tsc && concurrently --raw 'tsc --watch' 'paeckchen --watch'"
   },
   "dependencies": {
@@ -29,7 +29,7 @@
     "shelljs": "0.7.4",
     "source-map": "0.5.6",
     "tslint": "3.15.1",
-    "tslint-config-clebert": "1.1.0",
+    "tslint-config-clebert": "1.1.2",
     "typescript": "2.0.3"
   }
 }
